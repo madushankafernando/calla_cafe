@@ -1,0 +1,54 @@
+.xmas {
+    background-color: #3D9949;
+    color: #fff;
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.xmas a {
+		position: relative;
+		z-index: 2;
+}
+
+.xmas a {
+    color: #fff !important;
+}
+
+.xmas:after {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    content: "\0020";
+    border: solid 1px #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.xmas:before {
+    width: 140px;
+    height: 140px;
+    opacity: 1;
+    content: "\0020";
+    background-image: url(../restotapeo.com/app/uploads/2020/12/christmas-baubles.png);
+    background-size: cover;
+    background-position: center -10px;
+    background-repeat: no-repeat;
+    filter: invert(100%);
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    z-index: 0;
+}
+
+.xmas__title {
+    margin-top: 0 !Important;
+}
+
+ @media only screen and (max-width: 1200px) {
+    .xmas:before {
+        opacity: 0.3;
+    }
+}
