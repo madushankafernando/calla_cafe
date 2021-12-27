@@ -1584,7 +1584,7 @@ div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
 }
 
 .section-menu .menu-cat-wrapper {
-    width: 960px;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     position: relative
