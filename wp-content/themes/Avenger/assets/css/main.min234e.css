@@ -3118,7 +3118,7 @@ div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
 
 
 
-.menu.btn {
+.menu .btn {
     display: inline-block;
     margin-top: 1rem;
     padding: .7rem 1.8rem;
@@ -3129,12 +3129,12 @@ div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
     border-radius: .5rem;
   }
   
-  .menu.btn:hover {
+  .menu .btn:hover {
     background: #130f40;
   }
   
 
-  .menu.popular .box-container {
+  .menu .popular .box-container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
@@ -3142,7 +3142,7 @@ div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
     gap: 1.5rem;
   }
   
-  .menu.popular .box-container .box {
+  .menu .popular .box-container .box {
     border-radius: .5rem;
     position: relative;
     background: #f7f7f7;
@@ -3150,7 +3150,7 @@ div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
     text-align: center;
   }
   
-  .menu.popular .box-container .box .fa-heart {
+  .menu .popular .box-container .box .fa-heart {
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
@@ -3159,24 +3159,24 @@ div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
     cursor: pointer;
   }
   
-  .menu.popular .box-container .box .fa-heart:hover {
+  .menu .popular .box-container .box .fa-heart:hover {
     color: #27ae60;
   }
   
-  .menu.popular .box-container .box .image {
+  .menu .popular .box-container .box .image {
     margin: 1rem 0;
   }
   
-  .popular .box-container .box .image img {
+  .menu .popular .box-container .box .image img {
     height: 15rem;
   }
   
-  .menu.popular .box-container .box .content h3 {
+  .menu .popular .box-container .box .content h3 {
     font-size: 2rem;
     color: #130f40;
   }
   
-  .menu.popular .box-container .box .content .stars {
+  .menu .popular .box-container .box .content .stars {
     padding: 1rem 0;
     font-size: 1.7rem;
   }
