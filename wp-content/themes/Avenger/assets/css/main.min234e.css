@@ -3117,7 +3117,8 @@ div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
 }
 
 
-.btn {
+
+.menu.btn {
     display: inline-block;
     margin-top: 1rem;
     padding: .7rem 1.8rem;
@@ -3128,12 +3129,12 @@ div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
     border-radius: .5rem;
   }
   
-  .btn:hover {
+  .menu.btn:hover {
     background: #130f40;
   }
   
 
-.popular .box-container {
+  .menu.popular .box-container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
@@ -3141,7 +3142,7 @@ div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
     gap: 1.5rem;
   }
   
-  .popular .box-container .box {
+  .menu.popular .box-container .box {
     border-radius: .5rem;
     position: relative;
     background: #f7f7f7;
@@ -3149,7 +3150,7 @@ div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
     text-align: center;
   }
   
-  .popular .box-container .box .fa-heart {
+  .menu.popular .box-container .box .fa-heart {
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
@@ -3158,11 +3159,11 @@ div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
     cursor: pointer;
   }
   
-  .popular .box-container .box .fa-heart:hover {
+  .menu.popular .box-container .box .fa-heart:hover {
     color: #27ae60;
   }
   
-  .popular .box-container .box .image {
+  .menu.popular .box-container .box .image {
     margin: 1rem 0;
   }
   
@@ -3170,52 +3171,52 @@ div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
     height: 15rem;
   }
   
-  .popular .box-container .box .content h3 {
+  .menu.popular .box-container .box .content h3 {
     font-size: 2rem;
     color: #130f40;
   }
   
-  .popular .box-container .box .content .stars {
+  .menu.popular .box-container .box .content .stars {
     padding: 1rem 0;
     font-size: 1.7rem;
   }
   
-  .popular .box-container .box .content .stars i {
+  .menu .popular .box-container .box .content .stars i {
     color: gold;
   }
   
-  .popular .box-container .box .content .stars span {
+  .menu .popular .box-container .box .content .stars span {
     color: #666;
   }
   
-  .popular .box-container .box .content .price {
+  .menu .popular .box-container .box .content .price {
     font-size: 2rem;
     color: #130f40;
   }
   
-  .popular .box-container .box .content .price span {
+  .menu .popular .box-container .box .content .price span {
     font-size: 1.5rem;
     color: #666;
     text-decoration: line-through;
   }
 
-.heading {
+  .menu .heading {
   text-align: center;
   padding-bottom: 2rem;
 }
 
-.heading span {
+.menu .heading span {
   font-family: 'Satisfy', cursive;
   font-size: 3rem;
   color: #27ae60;
 }
 
-.heading h3 {
+.menu .heading h3 {
   font-size: 3rem;
   color: #130f40;
 }
 
-.popular .box-container {
+.menu .popular .box-container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
@@ -3223,7 +3224,7 @@ div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
     gap: 1.5rem;
   }
   
-  .popular .box-container .box {
+  .menu .popular .box-container .box {
     border-radius: .5rem;
     position: relative;
     background: #f7f7f7;
@@ -3231,7 +3232,7 @@ div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
     text-align: center;
   }
   
-  .popular .box-container .box .fa-heart {
+  .menu .popular .box-container .box .fa-heart {
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
@@ -3240,42 +3241,42 @@ div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
     cursor: pointer;
   }
   
-  .popular .box-container .box .fa-heart:hover {
+  .menu .popular .box-container .box .fa-heart:hover {
     color: #27ae60;
   }
   
-  .popular .box-container .box .image {
+  .menu .popular .box-container .box .image {
     margin: 1rem 0;
   }
   
-  .popular .box-container .box .image img {
+  .menu .popular .box-container .box .image img {
     height: 15rem;
   }
   
-  .popular .box-container .box .content h3 {
+  .menu .popular .box-container .box .content h3 {
     font-size: 2rem;
     color: #130f40;
   }
   
-  .popular .box-container .box .content .stars {
+  .menu .popular .box-container .box .content .stars {
     padding: 1rem 0;
     font-size: 1.7rem;
   }
   
-  .popular .box-container .box .content .stars i {
+  .menu .popular .box-container .box .content .stars i {
     color: gold;
   }
   
-  .popular .box-container .box .content .stars span {
+  .menu .popular .box-container .box .content .stars span {
     color: #666;
   }
   
-  .popular .box-container .box .content .price {
+  .menu .popular .box-container .box .content .price {
     font-size: 2rem;
     color: #130f40;
   }
   
-  .popular .box-container .box .content .price span {
+  .menu .popular .box-container .box .content .price span {
     font-size: 1.5rem;
     color: #666;
     text-decoration: line-through;
