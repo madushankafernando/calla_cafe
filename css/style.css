@@ -1638,7 +1638,7 @@ nav .sb-navigation li a:before {
     height: 8px;
     width: 8px;
     border-radius: 50%;
-    background-color: #F5C332;
+    background-color: #0C2F6F;
     transform: scale(0);
 }
 
@@ -2225,7 +2225,8 @@ menu
     width: 115px;
     height: 60px;
     font-weight: 500;
-    background-color: #F5C332;
+    background-color: #0C2F6F;
+    color: white;
     font-size: 24px;
     display: flex;
     justify-content: center;
